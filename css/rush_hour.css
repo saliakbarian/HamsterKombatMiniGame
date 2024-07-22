@@ -19,7 +19,6 @@ button {
 }
 
 body {
-  /*background-image: url('http://image.shutterstock.com/z/stock-vector-a-cartoon-traffic-jam-scene-cityscape-traffic-52014274.jpg');*/
   font-family: 'Tahoma', cursive;
 }
 
@@ -36,27 +35,30 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 20px;
+  padding: 20px;
   direction: rtl;
 }
 
 .title {
   direction: rtl;
+  text-align: center;
   font-size: 45px;
 }
 
 .instructions {
-  font-size: 25px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .instructions-note {
+  text-align: center;
   font-size: 15px;
 }
 
 .icon-links a {
-  font-size: 30px;
-  margin: 5px;
+  font-size: 60px;
+  margin: 10px;
 }
 
 .icon-links a:hover {
@@ -64,22 +66,22 @@ body {
 }
 
 #rush-hour {
-  border: 10px solid #ccc;
+  border: 20px solid #ccc;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 20px;
   background: #000;
-  width: 380px;
+  width: 760px;
 }
 
 ul, ol {
   list-style-type: none;
-  height: 60px;
+  height: 120px;
   display: flex;
-  width: 100%;
+  width: 200%;
 }
 
 li {
-  width: 60px;
+  width: 120px;
   border: 1px solid #808080;
   /*background: #ccc;*/
   /*border-radius: 5px;*/
@@ -92,7 +94,7 @@ li {
   letter-spacing: 2px;
   padding: 2px 10px;
   position: absolute;
-  top: 140px;
+  top: 280px;
   right: -45px;
   z-index: 1;
   -webkit-transform: rotate(-90deg);
@@ -102,7 +104,7 @@ li {
 
 .move-counter {
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
   padding: 2px;
   padding-right: 30px;
   direction: rtl;
@@ -163,9 +165,9 @@ li {
   position: absolute;
   z-index: 1;
   color: #fff;
-  font-size: 60px;
-  top: 150px;
-  left: 60px;
+  font-size: 120px;
+  top: 300px;
+  left: 120px;
   animation: fadetext 0.8s ease 0s 1 normal forwards;
   direction: rtl;
 }
@@ -189,12 +191,12 @@ li {
 
 .levels {
   background: #fff;
-  width: 380px;
+  width: 760px;
   display: flex;
   justify-content: space-between;
-  border-radius: 10px;
-  font-size: 30px;
-  border: 3px solid black;
+  border-radius: 20px;
+  font-size: 60px;
+  border: 6px solid black;
 }
 
 .current-level {
@@ -231,13 +233,4 @@ li {
 
 .easy-button:active, .medium-button:active, .hard-button:active, .reset-button:active, .scroll-button:hover {
   color: #000;
-}
-
-.disclaimer {
-  font-size: 15px;
-  margin: 5px;
-}
-
-.disclaimer a {
-  color: blue;
 }

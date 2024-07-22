@@ -61,8 +61,24 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	$(function () {
+	  const urlParams = new URLSearchParams(window.location.search);
+	  const InputDate = urlParams.get('Date');
+	  var carsDic = {};
 	  var $container = $('#rush-hour');
-	  var todayCars = function todayCars() {
+	  carsDic['20240723'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 2], "right"), 
+				new _car2.default(2, "red", [1, 0], "down"), 
+				new _car2.default(2, "red", [1, 1], "down"), 
+				new _car2.default(2, "red", [0, 2], "down"), 
+				new _car2.default(2, "red", [1, 4], "down"), 
+				new _car2.default(3, "red", [1, 5], "down"), 
+				new _car2.default(3, "red", [3, 3], "down"), 
+				new _car2.default(2, "green", [0, 0], "right"), 
+				new _car2.default(2, "green", [0, 3], "right"),
+				new _car2.default(2, "green", [4, 4], "right")
+			];
+	  };
+	  carsDic['20240722'] = function () {
 	    return [new _car2.default(2, "yellow", [2, 0], "right"), 
 				new _car2.default(2, "red", [0, 0], "down"), 
 				new _car2.default(2, "red", [1, 2], "down"), 
@@ -76,11 +92,14 @@
 				new _car2.default(2, "green", [3, 4], "right"), 
 				new _car2.default(2, "green", [5, 2], "right")
 			];
+			
 	  };
-	
-	
-	  var cars = todayCars;
-	
+	  var todayCars = null
+	  if(InputDate){
+		todayCars = carsDic[InputDate]
+	  }
+	  if(!todayCars)
+		todayCars = carsDic[Object.keys(carsDic).sort().reverse()[0]]
 	
 	  $('.easy-button').click(function () {
 	    $container.empty();

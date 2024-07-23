@@ -115,14 +115,20 @@ li {
   background-color: #EA1821;
   /*EE1122*/
   border: none;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 }
 .green {
   background-color: #88CC33;
   border: none;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 .yellow {
   background-color: #FFFF46;
   border: none;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 .purple {
   background-color: #8E1E9C;
@@ -227,11 +233,11 @@ li {
   font-size: 25px;
 } */
 
-.easy-button:hover, .medium-button:hover, .hard-button:hover, .reset-button:hover, .scroll-button:hover {
+.reset-button:hover {
   color: #EA1821;
   cursor: pointer;
 }
 
-.easy-button:active, .medium-button:active, .hard-button:active, .reset-button:active, .scroll-button:hover {
+.reset-button:active {
   color: #000;
 }

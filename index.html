@@ -11,6 +11,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
+
+
+    <script>
+      function reload_js(src) {
+          const existingScript = document.querySelector('script[src="' + src + '"]');
+          if (existingScript) {
+              existingScript.remove();
+          }
+          const newScript = document.createElement('script');
+          newScript.src = src;
+          document.head.appendChild(newScript);
+      }
+      // Call the function with your actual script file name
+      reload_js('./js/bundle.js');
+  </script>
+
   </head>
 
   <body>

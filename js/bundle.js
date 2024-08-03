@@ -1,1 +1,695 @@
-function _0x507a(){var _0x52ec3d=['handleWin','setUpBoard','selectedCar','__esModule','defineProperty','off','call','html','key','abs','yellow','72NDswUy','down','unshift','segments','index','addClass','moveCount','directionTranslate','grid','empty','20240803','1555229euAjdf','render','keyCode','fill','1439192BvQtxF','#rush-hour','location','color','20240801','preventDefault','configurable','value','/span\x201','board','.reset-button','move','$container','<div\x20id=\x27car_','onEdge','setUpBody','default','20240729','selected','toString','20240722','substr','4UVsvly','1600700wyUUir','error','css','removeClass','/span\x20','#car_','writable','724775axkqgL','29665955HFqSgI','show','setUpCars','oppositeOrientation','append','sort','4437621uuEsqs','isWon','.win-phrase','#timer','cars','forEach','18IqEcBa','enumerable','orientation','20240726','right','scheduler','Cannot\x20call\x20a\x20class\x20as\x20a\x20function','padStart','21baaCGI','push','green','moveSteps','view','shift','restartTimer','keydown','startTime','20240802','toFixed','red','exports','20240725','20240728','grid-column','sameDir','get','grid-row','startPos','click','getTime','loaded','floor','\x27></div>','left','prototype','length','.selected','keys','290102CncCXV'];_0x507a=function(){return _0x52ec3d;};return _0x507a();}function _0x5a7a(_0x4c47f1,_0x124855){var _0x507aa2=_0x507a();return _0x5a7a=function(_0x5a7ae7,_0x3aa81a){_0x5a7ae7=_0x5a7ae7-0xf6;var _0x1b03e1=_0x507aa2[_0x5a7ae7];return _0x1b03e1;},_0x5a7a(_0x4c47f1,_0x124855);}(function(_0x3ff82a,_0x2f9799){var _0x1d0221=_0x5a7a,_0x1e87e9=_0x3ff82a();while(!![]){try{var _0x18ecc9=parseInt(_0x1d0221(0x110))/0x1+parseInt(_0x1d0221(0xf9))/0x2+-parseInt(_0x1d0221(0x139))/0x3*(-parseInt(_0x1d0221(0x12a))/0x4)+-parseInt(_0x1d0221(0x132))/0x5*(parseInt(_0x1d0221(0x13f))/0x6)+-parseInt(_0x1d0221(0x147))/0x7*(parseInt(_0x1d0221(0x114))/0x8)+parseInt(_0x1d0221(0x105))/0x9*(parseInt(_0x1d0221(0x12b))/0xa)+-parseInt(_0x1d0221(0x133))/0xb;if(_0x18ecc9===_0x2f9799)break;else _0x1e87e9['push'](_0x1e87e9['shift']());}catch(_0x5a2255){_0x1e87e9['push'](_0x1e87e9['shift']());}}}(_0x507a,0xc0864),function(_0x1c28d4){var _0x101535={};function _0x23c0a(_0x93039e){var _0x18c377=_0x5a7a;if(_0x101535[_0x93039e])return _0x101535[_0x93039e][_0x18c377(0x153)];var _0x40935b=_0x101535[_0x93039e]={'exports':{},'id':_0x93039e,'loaded':![]};return _0x1c28d4[_0x93039e][_0x18c377(0x100)](_0x40935b[_0x18c377(0x153)],_0x40935b,_0x40935b[_0x18c377(0x153)],_0x23c0a),_0x40935b[_0x18c377(0x15d)]=!![],_0x40935b['exports'];}return _0x23c0a['m']=_0x1c28d4,_0x23c0a['c']=_0x101535,_0x23c0a['p']='',_0x23c0a(0x0);}([function(_0x15537a,_0x10bab9,_0x392977){'use strict';var _0x1b35ec=_0x392977(0x1),_0x4354f9=_0x3c9138(_0x1b35ec),_0x1d197b=_0x392977(0x2),_0x1056ae=_0x3c9138(_0x1d197b),_0x250eb2=_0x392977(0x3),_0x2f02dd=_0x3c9138(_0x250eb2);function _0x3c9138(_0x2a14ba){var _0xcdc2f7=_0x5a7a;return _0x2a14ba&&_0x2a14ba[_0xcdc2f7(0xfd)]?_0x2a14ba:{'default':_0x2a14ba};}$(function(){var _0x149d2b=_0x5a7a;const _0x357432=new URLSearchParams(window[_0x149d2b(0x116)]['search']),_0x11adbc=_0x357432[_0x149d2b(0x158)]('Date');var _0x134426={},_0x19d174=$(_0x149d2b(0x115));_0x134426[_0x149d2b(0x10f)]=function(){var _0x20c15b=_0x149d2b;return[new _0x4354f9['default'](0x2,_0x20c15b(0x104),[0x2,0x1],_0x20c15b(0x143)),new _0x4354f9['default'](0x2,_0x20c15b(0x152),[0x1,0x3],_0x20c15b(0x106)),new _0x4354f9['default'](0x2,_0x20c15b(0x152),[0x2,0x0],_0x20c15b(0x106)),new _0x4354f9[(_0x20c15b(0x124))](0x2,_0x20c15b(0x152),[0x2,0x5],'down'),new _0x4354f9['default'](0x2,_0x20c15b(0x152),[0x3,0x1],_0x20c15b(0x106)),new _0x4354f9[(_0x20c15b(0x124))](0x2,_0x20c15b(0x152),[0x4,0x0],_0x20c15b(0x106)),new _0x4354f9[(_0x20c15b(0x124))](0x2,_0x20c15b(0x152),[0x4,0x3],_0x20c15b(0x106)),new _0x4354f9['default'](0x3,_0x20c15b(0x149),[0x0,0x3],_0x20c15b(0x143)),new _0x4354f9['default'](0x2,_0x20c15b(0x149),[0x1,0x4],_0x20c15b(0x143)),new _0x4354f9['default'](0x3,_0x20c15b(0x149),[0x3,0x2],'right'),new _0x4354f9[(_0x20c15b(0x124))](0x2,_0x20c15b(0x149),[0x4,0x4],_0x20c15b(0x143)),new _0x4354f9['default'](0x2,_0x20c15b(0x149),[0x5,0x1],_0x20c15b(0x143))];},_0x134426[_0x149d2b(0x150)]=function(){var _0x4a4e5e=_0x149d2b;return[new _0x4354f9[(_0x4a4e5e(0x124))](0x2,'yellow',[0x2,0x0],'right'),new _0x4354f9['default'](0x2,_0x4a4e5e(0x152),[0x0,0x1],_0x4a4e5e(0x106)),new _0x4354f9[(_0x4a4e5e(0x124))](0x3,'red',[0x0,0x4],_0x4a4e5e(0x106)),new _0x4354f9[(_0x4a4e5e(0x124))](0x2,'red',[0x2,0x2],_0x4a4e5e(0x106)),new _0x4354f9[(_0x4a4e5e(0x124))](0x3,_0x4a4e5e(0x152),[0x2,0x5],_0x4a4e5e(0x106)),new _0x4354f9['default'](0x3,_0x4a4e5e(0x152),[0x3,0x0],_0x4a4e5e(0x106)),new _0x4354f9[(_0x4a4e5e(0x124))](0x2,_0x4a4e5e(0x152),[0x4,0x3],'down'),new _0x4354f9['default'](0x2,'green',[0x0,0x2],'right'),new _0x4354f9[(_0x4a4e5e(0x124))](0x2,'green',[0x1,0x2],_0x4a4e5e(0x143)),new _0x4354f9[(_0x4a4e5e(0x124))](0x2,_0x4a4e5e(0x149),[0x3,0x3],_0x4a4e5e(0x143)),new _0x4354f9[(_0x4a4e5e(0x124))](0x2,_0x4a4e5e(0x149),[0x4,0x1],_0x4a4e5e(0x143)),new _0x4354f9[(_0x4a4e5e(0x124))](0x2,_0x4a4e5e(0x149),[0x5,0x4],_0x4a4e5e(0x143))];},_0x134426[_0x149d2b(0x118)]=function(){var _0x3724e3=_0x149d2b;return[new _0x4354f9['default'](0x2,_0x3724e3(0x104),[0x2,0x1],_0x3724e3(0x143)),new _0x4354f9[(_0x3724e3(0x124))](0x3,'red',[0x0,0x0],_0x3724e3(0x106)),new _0x4354f9[(_0x3724e3(0x124))](0x3,_0x3724e3(0x152),[0x1,0x3],_0x3724e3(0x106)),new _0x4354f9[(_0x3724e3(0x124))](0x2,'red',[0x1,0x5],_0x3724e3(0x106)),new _0x4354f9['default'](0x2,_0x3724e3(0x152),[0x3,0x2],_0x3724e3(0x106)),new _0x4354f9['default'](0x2,_0x3724e3(0x152),[0x4,0x0],_0x3724e3(0x106)),new _0x4354f9[(_0x3724e3(0x124))](0x2,_0x3724e3(0x152),[0x4,0x5],_0x3724e3(0x106)),new _0x4354f9[(_0x3724e3(0x124))](0x2,_0x3724e3(0x149),[0x0,0x3],_0x3724e3(0x143)),new _0x4354f9[(_0x3724e3(0x124))](0x2,_0x3724e3(0x149),[0x3,0x4],_0x3724e3(0x143)),new _0x4354f9[(_0x3724e3(0x124))](0x2,_0x3724e3(0x149),[0x4,0x3],_0x3724e3(0x143)),new _0x4354f9['default'](0x2,_0x3724e3(0x149),[0x5,0x1],_0x3724e3(0x143))];},_0x134426['20240731']=function(){var _0x391f4f=_0x149d2b;return[new _0x4354f9[(_0x391f4f(0x124))](0x2,_0x391f4f(0x104),[0x2,0x2],_0x391f4f(0x143)),new _0x4354f9['default'](0x2,_0x391f4f(0x152),[0x0,0x2],'down'),new _0x4354f9[(_0x391f4f(0x124))](0x2,_0x391f4f(0x152),[0x1,0x4],'down'),new _0x4354f9[(_0x391f4f(0x124))](0x2,_0x391f4f(0x152),[0x1,0x5],_0x391f4f(0x106)),new _0x4354f9[(_0x391f4f(0x124))](0x3,_0x391f4f(0x152),[0x3,0x1],'down'),new _0x4354f9[(_0x391f4f(0x124))](0x2,_0x391f4f(0x152),[0x3,0x2],'down'),new _0x4354f9['default'](0x3,'red',[0x3,0x5],_0x391f4f(0x106)),new _0x4354f9[(_0x391f4f(0x124))](0x2,'green',[0x0,0x4],_0x391f4f(0x143)),new _0x4354f9[(_0x391f4f(0x124))](0x2,_0x391f4f(0x149),[0x1,0x0],_0x391f4f(0x143)),new _0x4354f9[(_0x391f4f(0x124))](0x2,'green',[0x2,0x0],_0x391f4f(0x143)),new _0x4354f9[(_0x391f4f(0x124))](0x2,_0x391f4f(0x149),[0x3,0x3],_0x391f4f(0x143)),new _0x4354f9[(_0x391f4f(0x124))](0x3,'green',[0x5,0x2],_0x391f4f(0x143))];},_0x134426['20240730']=function(){var _0x115dce=_0x149d2b;return[new _0x4354f9[(_0x115dce(0x124))](0x2,_0x115dce(0x104),[0x2,0x0],_0x115dce(0x143)),new _0x4354f9['default'](0x2,_0x115dce(0x152),[0x0,0x0],'down'),new _0x4354f9[(_0x115dce(0x124))](0x2,'red',[0x0,0x1],'down'),new _0x4354f9['default'](0x3,'red',[0x1,0x5],_0x115dce(0x106)),new _0x4354f9[(_0x115dce(0x124))](0x3,_0x115dce(0x152),[0x2,0x2],_0x115dce(0x106)),new _0x4354f9[(_0x115dce(0x124))](0x2,'red',[0x4,0x3],_0x115dce(0x106)),new _0x4354f9['default'](0x2,_0x115dce(0x149),[0x0,0x4],_0x115dce(0x143)),new _0x4354f9['default'](0x3,'green',[0x1,0x2],_0x115dce(0x143)),new _0x4354f9[(_0x115dce(0x124))](0x2,_0x115dce(0x149),[0x3,0x3],'right'),new _0x4354f9[(_0x115dce(0x124))](0x2,_0x115dce(0x149),[0x4,0x4],'right'),new _0x4354f9[(_0x115dce(0x124))](0x3,_0x115dce(0x149),[0x5,0x0],_0x115dce(0x143))];},_0x134426[_0x149d2b(0x125)]=function(){var _0x4cde35=_0x149d2b;return[new _0x4354f9[(_0x4cde35(0x124))](0x2,_0x4cde35(0x104),[0x2,0x0],'right'),new _0x4354f9['default'](0x2,_0x4cde35(0x152),[0x0,0x0],_0x4cde35(0x106)),new _0x4354f9[(_0x4cde35(0x124))](0x2,_0x4cde35(0x152),[0x1,0x4],_0x4cde35(0x106)),new _0x4354f9['default'](0x3,_0x4cde35(0x152),[0x1,0x5],_0x4cde35(0x106)),new _0x4354f9[(_0x4cde35(0x124))](0x3,_0x4cde35(0x152),[0x2,0x2],_0x4cde35(0x106)),new _0x4354f9['default'](0x2,_0x4cde35(0x152),[0x4,0x3],_0x4cde35(0x106)),new _0x4354f9['default'](0x2,_0x4cde35(0x149),[0x0,0x3],_0x4cde35(0x143)),new _0x4354f9[(_0x4cde35(0x124))](0x3,_0x4cde35(0x149),[0x1,0x1],_0x4cde35(0x143)),new _0x4354f9['default'](0x2,'green',[0x3,0x3],'right'),new _0x4354f9[(_0x4cde35(0x124))](0x2,_0x4cde35(0x149),[0x4,0x0],_0x4cde35(0x143)),new _0x4354f9[(_0x4cde35(0x124))](0x2,_0x4cde35(0x149),[0x4,0x4],'right'),new _0x4354f9[(_0x4cde35(0x124))](0x3,_0x4cde35(0x149),[0x5,0x0],_0x4cde35(0x143))];},_0x134426[_0x149d2b(0x155)]=function(){var _0x4c3574=_0x149d2b;return[new _0x4354f9['default'](0x2,'yellow',[0x2,0x2],'right'),new _0x4354f9[(_0x4c3574(0x124))](0x3,'red',[0x0,0x4],_0x4c3574(0x106)),new _0x4354f9[(_0x4c3574(0x124))](0x2,_0x4c3574(0x152),[0x0,0x5],'down'),new _0x4354f9[(_0x4c3574(0x124))](0x2,_0x4c3574(0x152),[0x1,0x1],_0x4c3574(0x106)),new _0x4354f9[(_0x4c3574(0x124))](0x2,_0x4c3574(0x152),[0x3,0x2],'down'),new _0x4354f9[(_0x4c3574(0x124))](0x2,'red',[0x4,0x3],_0x4c3574(0x106)),new _0x4354f9[(_0x4c3574(0x124))](0x2,_0x4c3574(0x149),[0x0,0x0],'right'),new _0x4354f9[(_0x4c3574(0x124))](0x2,'green',[0x1,0x2],_0x4c3574(0x143)),new _0x4354f9[(_0x4c3574(0x124))](0x2,_0x4c3574(0x149),[0x3,0x4],_0x4c3574(0x143)),new _0x4354f9[(_0x4c3574(0x124))](0x2,'green',[0x4,0x0],_0x4c3574(0x143)),new _0x4354f9[(_0x4c3574(0x124))](0x3,_0x4c3574(0x149),[0x5,0x0],_0x4c3574(0x143))];},_0x134426['20240727']=function(){var _0x24a96e=_0x149d2b;return[new _0x4354f9[(_0x24a96e(0x124))](0x2,_0x24a96e(0x104),[0x2,0x0],_0x24a96e(0x143)),new _0x4354f9['default'](0x2,_0x24a96e(0x152),[0x0,0x5],_0x24a96e(0x106)),new _0x4354f9[(_0x24a96e(0x124))](0x2,_0x24a96e(0x152),[0x1,0x2],_0x24a96e(0x106)),new _0x4354f9[(_0x24a96e(0x124))](0x3,_0x24a96e(0x152),[0x1,0x3],_0x24a96e(0x106)),new _0x4354f9[(_0x24a96e(0x124))](0x2,_0x24a96e(0x152),[0x1,0x4],_0x24a96e(0x106)),new _0x4354f9[(_0x24a96e(0x124))](0x2,_0x24a96e(0x152),[0x3,0x2],_0x24a96e(0x106)),new _0x4354f9[(_0x24a96e(0x124))](0x2,'red',[0x4,0x5],_0x24a96e(0x106)),new _0x4354f9[(_0x24a96e(0x124))](0x3,_0x24a96e(0x149),[0x0,0x1],_0x24a96e(0x143)),new _0x4354f9[(_0x24a96e(0x124))](0x2,'green',[0x3,0x4],_0x24a96e(0x143)),new _0x4354f9[(_0x24a96e(0x124))](0x2,_0x24a96e(0x149),[0x4,0x3],_0x24a96e(0x143)),new _0x4354f9['default'](0x2,_0x24a96e(0x149),[0x5,0x1],'right')];},_0x134426[_0x149d2b(0x142)]=function(){var _0x56c44d=_0x149d2b;return[new _0x4354f9[(_0x56c44d(0x124))](0x2,_0x56c44d(0x104),[0x2,0x1],_0x56c44d(0x143)),new _0x4354f9[(_0x56c44d(0x124))](0x2,_0x56c44d(0x152),[0x0,0x5],_0x56c44d(0x106)),new _0x4354f9['default'](0x3,_0x56c44d(0x152),[0x1,0x4],'down'),new _0x4354f9[(_0x56c44d(0x124))](0x2,'red',[0x2,0x0],_0x56c44d(0x106)),new _0x4354f9[(_0x56c44d(0x124))](0x3,_0x56c44d(0x152),[0x3,0x1],_0x56c44d(0x106)),new _0x4354f9['default'](0x2,_0x56c44d(0x152),[0x3,0x2],_0x56c44d(0x106)),new _0x4354f9[(_0x56c44d(0x124))](0x2,'red',[0x3,0x5],_0x56c44d(0x106)),new _0x4354f9[(_0x56c44d(0x124))](0x2,_0x56c44d(0x149),[0x0,0x0],_0x56c44d(0x143)),new _0x4354f9[(_0x56c44d(0x124))](0x3,_0x56c44d(0x149),[0x1,0x1],_0x56c44d(0x143)),new _0x4354f9['default'](0x2,_0x56c44d(0x149),[0x4,0x3],_0x56c44d(0x143)),new _0x4354f9[(_0x56c44d(0x124))](0x3,_0x56c44d(0x149),[0x5,0x3],_0x56c44d(0x143))];},_0x134426[_0x149d2b(0x154)]=function(){var _0x3a6fa9=_0x149d2b;return[new _0x4354f9[(_0x3a6fa9(0x124))](0x2,'yellow',[0x2,0x2],'right'),new _0x4354f9[(_0x3a6fa9(0x124))](0x3,_0x3a6fa9(0x152),[0x0,0x0],_0x3a6fa9(0x106)),new _0x4354f9[(_0x3a6fa9(0x124))](0x2,_0x3a6fa9(0x152),[0x1,0x1],'down'),new _0x4354f9['default'](0x2,_0x3a6fa9(0x152),[0x0,0x3],_0x3a6fa9(0x106)),new _0x4354f9[(_0x3a6fa9(0x124))](0x3,_0x3a6fa9(0x152),[0x1,0x4],_0x3a6fa9(0x106)),new _0x4354f9[(_0x3a6fa9(0x124))](0x2,_0x3a6fa9(0x152),[0x2,0x5],_0x3a6fa9(0x106)),new _0x4354f9['default'](0x2,_0x3a6fa9(0x152),[0x4,0x2],_0x3a6fa9(0x106)),new _0x4354f9[(_0x3a6fa9(0x124))](0x2,'green',[0x0,0x4],_0x3a6fa9(0x143)),new _0x4354f9[(_0x3a6fa9(0x124))](0x3,'green',[0x3,0x0],_0x3a6fa9(0x143)),new _0x4354f9[(_0x3a6fa9(0x124))](0x2,_0x3a6fa9(0x149),[0x4,0x4],_0x3a6fa9(0x143)),new _0x4354f9[(_0x3a6fa9(0x124))](0x2,'green',[0x5,0x4],_0x3a6fa9(0x143))];},_0x134426['20240724']=function(){var _0x1bb7a2=_0x149d2b;return[new _0x4354f9[(_0x1bb7a2(0x124))](0x2,_0x1bb7a2(0x104),[0x2,0x0],_0x1bb7a2(0x143)),new _0x4354f9[(_0x1bb7a2(0x124))](0x2,_0x1bb7a2(0x152),[0x0,0x1],_0x1bb7a2(0x106)),new _0x4354f9[(_0x1bb7a2(0x124))](0x2,_0x1bb7a2(0x152),[0x1,0x4],_0x1bb7a2(0x106)),new _0x4354f9[(_0x1bb7a2(0x124))](0x2,_0x1bb7a2(0x152),[0x2,0x2],_0x1bb7a2(0x106)),new _0x4354f9['default'](0x2,_0x1bb7a2(0x152),[0x4,0x0],_0x1bb7a2(0x106)),new _0x4354f9['default'](0x2,_0x1bb7a2(0x152),[0x4,0x3],_0x1bb7a2(0x106)),new _0x4354f9[(_0x1bb7a2(0x124))](0x3,_0x1bb7a2(0x152),[0x3,0x5],_0x1bb7a2(0x106)),new _0x4354f9['default'](0x2,_0x1bb7a2(0x149),[0x0,0x4],'right'),new _0x4354f9[(_0x1bb7a2(0x124))](0x2,_0x1bb7a2(0x149),[0x1,0x2],_0x1bb7a2(0x143)),new _0x4354f9[(_0x1bb7a2(0x124))](0x2,_0x1bb7a2(0x149),[0x3,0x0],_0x1bb7a2(0x143)),new _0x4354f9['default'](0x2,'green',[0x3,0x3],_0x1bb7a2(0x143)),new _0x4354f9[(_0x1bb7a2(0x124))](0x2,'green',[0x4,0x1],_0x1bb7a2(0x143))];},_0x134426['20240723']=function(){var _0x35f744=_0x149d2b;return[new _0x4354f9[(_0x35f744(0x124))](0x2,_0x35f744(0x104),[0x2,0x2],_0x35f744(0x143)),new _0x4354f9['default'](0x2,_0x35f744(0x152),[0x1,0x0],_0x35f744(0x106)),new _0x4354f9[(_0x35f744(0x124))](0x2,'red',[0x1,0x1],_0x35f744(0x106)),new _0x4354f9['default'](0x2,'red',[0x0,0x2],'down'),new _0x4354f9['default'](0x2,_0x35f744(0x152),[0x1,0x4],_0x35f744(0x106)),new _0x4354f9[(_0x35f744(0x124))](0x3,_0x35f744(0x152),[0x1,0x5],_0x35f744(0x106)),new _0x4354f9[(_0x35f744(0x124))](0x3,_0x35f744(0x152),[0x3,0x3],'down'),new _0x4354f9[(_0x35f744(0x124))](0x2,_0x35f744(0x149),[0x0,0x0],_0x35f744(0x143)),new _0x4354f9[(_0x35f744(0x124))](0x2,_0x35f744(0x149),[0x0,0x3],_0x35f744(0x143)),new _0x4354f9['default'](0x2,_0x35f744(0x149),[0x4,0x4],'right')];},_0x134426[_0x149d2b(0x128)]=function(){var _0x3b6aff=_0x149d2b;return[new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x104),[0x2,0x0],_0x3b6aff(0x143)),new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x152),[0x0,0x0],_0x3b6aff(0x106)),new _0x4354f9['default'](0x2,_0x3b6aff(0x152),[0x1,0x2],'down'),new _0x4354f9['default'](0x2,'red',[0x1,0x5],_0x3b6aff(0x106)),new _0x4354f9[(_0x3b6aff(0x124))](0x3,_0x3b6aff(0x152),[0x2,0x3],_0x3b6aff(0x106)),new _0x4354f9[(_0x3b6aff(0x124))](0x3,_0x3b6aff(0x152),[0x3,0x1],_0x3b6aff(0x106)),new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x152),[0x4,0x4],'down'),new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x149),[0x0,0x1],'right'),new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x149),[0x1,0x3],_0x3b6aff(0x143)),new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x149),[0x0,0x4],_0x3b6aff(0x143)),new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x149),[0x3,0x4],'right'),new _0x4354f9[(_0x3b6aff(0x124))](0x2,_0x3b6aff(0x149),[0x5,0x2],_0x3b6aff(0x143))];};var _0x27962b=null,_0x110d49=_0x11adbc;_0x110d49&&(_0x27962b=_0x134426[_0x110d49]);!_0x27962b&&(_0x110d49=Object[_0x149d2b(0xf8)](_0x134426)[_0x149d2b(0x138)]()['reverse']()[0x0],_0x27962b=_0x134426[_0x110d49]);var _0x175486=_0x110d49[_0x149d2b(0x129)](0x0,0x4)+'.'+_0x110d49[_0x149d2b(0x129)](0x4,0x2)+'.'+_0x110d49['substr'](0x6,0x2);$('#TargetDate')[_0x149d2b(0x101)](_0x175486),$(_0x149d2b(0x11e))[_0x149d2b(0x15b)](function(){var _0x277b67=_0x149d2b;_0x19d174[_0x277b67(0x10e)](),$(_0x277b67(0x13b))[_0x277b67(0x12e)](_0x277b67(0x134)),_0xbcddc5(_0x27962b(),_0x19d174);}),_0xbcddc5(_0x27962b(),_0x19d174);});var _0xbcddc5=function _0x473d47(_0x4d7362,_0x31d273){var _0x38d6bd=_0x5a7a,_0x13f2d7=new _0x1056ae[(_0x38d6bd(0x124))](_0x4d7362),_0x5a934b=new _0x2f02dd[(_0x38d6bd(0x124))](_0x13f2d7,_0x31d273);_0x13f2d7['view']=_0x5a934b,_0x4d7362[_0x38d6bd(0x13e)](function(_0x3b752d){var _0x14dd0e=_0x38d6bd;_0x3b752d[_0x14dd0e(0x11d)]=_0x13f2d7;}),_0x5a934b[_0x38d6bd(0x14d)]();};},function(_0x1e0953,_0x388e2a){'use strict';var _0x17d380=_0x5a7a;Object[_0x17d380(0xfe)](_0x388e2a,_0x17d380(0xfd),{'value':!![]});var _0x10524a=(function(){function _0x2894fa(_0x57aef6,_0x5c0063){var _0x10982e=_0x5a7a;for(var _0x40b307=0x0;_0x40b307<_0x5c0063[_0x10982e(0xf6)];_0x40b307++){var _0x2e090d=_0x5c0063[_0x40b307];_0x2e090d[_0x10982e(0x140)]=_0x2e090d[_0x10982e(0x140)]||![],_0x2e090d[_0x10982e(0x11a)]=!![];if(_0x10982e(0x11b)in _0x2e090d)_0x2e090d[_0x10982e(0x131)]=!![];Object[_0x10982e(0xfe)](_0x57aef6,_0x2e090d['key'],_0x2e090d);}}return function(_0x1e767c,_0x3e4c91,_0x1080ba){var _0x58c202=_0x5a7a;if(_0x3e4c91)_0x2894fa(_0x1e767c[_0x58c202(0x161)],_0x3e4c91);if(_0x1080ba)_0x2894fa(_0x1e767c,_0x1080ba);return _0x1e767c;};}());function _0x32d2d4(_0xba639d,_0x42e15b){var _0x15e456=_0x17d380;if(!(_0xba639d instanceof _0x42e15b))throw new TypeError(_0x15e456(0x145));}var _0x5469c7=(function(){var _0x41220c=_0x17d380;function _0x122009(_0xd08e6,_0x355cc6,_0x4a01e8,_0x26f89b){var _0x40c3d2=_0x5a7a;_0x32d2d4(this,_0x122009),this[_0x40c3d2(0xf6)]=_0xd08e6,this[_0x40c3d2(0x117)]=_0x355cc6,this[_0x40c3d2(0x15a)]=_0x4a01e8,this[_0x40c3d2(0x141)]=_0x26f89b,this['segments']=[_0x4a01e8],this[_0x40c3d2(0x109)],this[_0x40c3d2(0x11d)],this['setUpBody']();}return _0x10524a(_0x122009,[{'key':'directionTranslate','value':function _0x368098(_0x2e0563){var _0x4725a1=_0x5a7a,_0x1df5a7=void 0x0;_0x2e0563?_0x1df5a7=_0x2e0563:_0x1df5a7=this[_0x4725a1(0x141)];var _0x100d79=void 0x0;switch(_0x1df5a7){case _0x4725a1(0x106):_0x100d79=[0x1,0x0];break;case _0x4725a1(0x143):_0x100d79=[0x0,0x1];break;case'up':_0x100d79=[-0x1,0x0];break;case'left':_0x100d79=[0x0,-0x1];}return _0x100d79;}},{'key':_0x41220c(0x123),'value':function _0x1ebff8(){var _0x41a5b8=_0x41220c,_0x590a95=this[_0x41a5b8(0x10c)]();for(var _0x590010=0x0;_0x590010<this[_0x41a5b8(0xf6)]-0x1;_0x590010++){var _0x5bea80=[this['segments'][_0x590010][0x0]+_0x590a95[0x0],this['segments'][_0x590010][0x1]+_0x590a95[0x1]];this['segments'][_0x41a5b8(0x148)](_0x5bea80);}}},{'key':'move','value':function _0x204dda(_0x166390){var _0x6df8e4=_0x41220c,_0x364478=this['directionTranslate'](_0x166390),_0x3300b6=void 0x0,_0x876e14=void 0x0;if(_0x166390==this['oppositeOrientation']()){_0x3300b6=this[_0x6df8e4(0x108)][0x0],_0x876e14=[_0x3300b6[0x0]+_0x364478[0x0],_0x3300b6[0x1]+_0x364478[0x1]];if(_0x876e14[0x0]<0x0||_0x876e14[0x0]>0x5||_0x876e14[0x1]<0x0||_0x876e14[0x1]>0x5)return;this[_0x6df8e4(0x11d)][_0x6df8e4(0x10d)][_0x876e14[0x0]][_0x876e14[0x1]]==0x0&&(this[_0x6df8e4(0x108)][_0x6df8e4(0x107)](_0x876e14),this[_0x6df8e4(0x108)]['pop'](),this[_0x6df8e4(0x15a)]=[this[_0x6df8e4(0x15a)][0x0]+_0x364478[0x0],this[_0x6df8e4(0x15a)][0x1]+_0x364478[0x1]],window[_0x6df8e4(0x10b)]+=0x1);}else{if(_0x166390==this['orientation']){_0x3300b6=this[_0x6df8e4(0x108)][this['length']-0x1],_0x876e14=[_0x3300b6[0x0]+_0x364478[0x0],_0x3300b6[0x1]+_0x364478[0x1]];if(_0x876e14[0x0]<0x0||_0x876e14[0x0]>0x5||_0x876e14[0x1]<0x0||_0x876e14[0x1]>0x5)return;this[_0x6df8e4(0x11d)][_0x6df8e4(0x10d)][_0x876e14[0x0]][_0x876e14[0x1]]==0x0&&(this[_0x6df8e4(0x108)][_0x6df8e4(0x148)](_0x876e14),this['segments'][_0x6df8e4(0x14c)](),this[_0x6df8e4(0x15a)]=[this['startPos'][0x0]+_0x364478[0x0],this['startPos'][0x1]+_0x364478[0x1]],window['moveCount']+=0x1);}}}},{'key':_0x41220c(0x136),'value':function _0x466437(_0x1efdff){var _0x116780=_0x41220c,_0x4d3d68=this['orientation'];if(_0x1efdff)_0x4d3d68=_0x1efdff;switch(_0x4d3d68){case'down':return'up';case'up':return _0x116780(0x106);case'left':return _0x116780(0x143);case _0x116780(0x143):return _0x116780(0x160);}return _0x116780(0x12c);}},{'key':'moveSteps','value':function _0x4f6bd4(_0x1f9bcf){var _0x6b160=_0x41220c;if(_0x1f9bcf==0x0)return;var _0x53fce5=this['orientation'];_0x1f9bcf<0x0&&(_0x1f9bcf=-_0x1f9bcf,_0x53fce5=this[_0x6b160(0x136)]());for(var _0x47b807=0x0;_0x47b807<_0x1f9bcf;_0x47b807++){this[_0x6b160(0x11f)](_0x53fce5);}}},{'key':_0x41220c(0x122),'value':function _0x2b1748(){var _0x568641=_0x41220c;if(this[_0x568641(0x10c)]()[0x0]===0x1)return this['segments'][0x0][0x0]===0x5||this[_0x568641(0x108)][this[_0x568641(0xf6)]-0x1][0x0]===0x0;else{if(this['directionTranslate']()[0x1]===0x1)return this[_0x568641(0x108)][0x0][0x1]===0x5||this[_0x568641(0x108)][this['length']-0x1][0x1]===0x0;}}},{'key':_0x41220c(0x157),'value':function _0x18f1b9(_0x4364f3){var _0x1438f6=_0x41220c;let _0x242df1=this[_0x1438f6(0x141)],_0x3361cc=this[_0x1438f6(0x10c)](),_0x2bdcb1=this[_0x1438f6(0x15a)],_0x306c29=[_0x2bdcb1[0x0]+_0x3361cc[0x0]*(this[_0x1438f6(0xf6)]-0x1),_0x2bdcb1[0x1]+_0x3361cc[0x1]*(this[_0x1438f6(0xf6)]-0x1)],_0x13ae32=Math['min'](Math[_0x1438f6(0x103)](_0x4364f3[0x0]-_0x2bdcb1[0x0])+Math['abs'](_0x4364f3[0x1]-_0x2bdcb1[0x1]),Math[_0x1438f6(0x103)](_0x4364f3[0x0]-_0x306c29[0x0])+Math[_0x1438f6(0x103)](_0x4364f3[0x1]-_0x306c29[0x1]));if(_0x242df1=='up'&&_0x4364f3[0x0]<_0x306c29[0x0]&&_0x4364f3[0x1]==_0x306c29[0x1]||_0x242df1==_0x1438f6(0x106)&&_0x4364f3[0x0]>_0x306c29[0x0]&&_0x4364f3[0x1]==_0x306c29[0x1]||_0x242df1=='left'&&_0x4364f3[0x1]<_0x306c29[0x1]&&_0x4364f3[0x0]==_0x306c29[0x0]||_0x242df1=='right'&&_0x4364f3[0x1]>_0x306c29[0x1]&&_0x4364f3[0x0]==_0x306c29[0x0])return _0x13ae32;if(_0x242df1=='up'&&_0x4364f3[0x0]>this[_0x1438f6(0x15a)][0x0]&&_0x4364f3[0x1]==this[_0x1438f6(0x15a)][0x1]||_0x242df1==_0x1438f6(0x106)&&_0x4364f3[0x0]<this[_0x1438f6(0x15a)][0x0]&&_0x4364f3[0x1]==this['startPos'][0x1]||_0x242df1=='left'&&_0x4364f3[0x1]>this[_0x1438f6(0x15a)][0x1]&&_0x4364f3[0x0]==this[_0x1438f6(0x15a)][0x0]||_0x242df1==_0x1438f6(0x143)&&_0x4364f3[0x1]<this[_0x1438f6(0x15a)][0x1]&&_0x4364f3[0x0]==this['startPos'][0x0])return-_0x13ae32;return 0x0;}}]),_0x122009;}());_0x388e2a['default']=_0x5469c7;},function(_0x1ead00,_0x1c899e,_0x16c1ba){'use strict';var _0x49215d=_0x5a7a;Object[_0x49215d(0xfe)](_0x1c899e,_0x49215d(0xfd),{'value':!![]});var _0x544db4=(function(){function _0x3d4083(_0x1fa8c1,_0x31c2e8){var _0x28706c=_0x5a7a;for(var _0x2b5b19=0x0;_0x2b5b19<_0x31c2e8[_0x28706c(0xf6)];_0x2b5b19++){var _0x2139ca=_0x31c2e8[_0x2b5b19];_0x2139ca[_0x28706c(0x140)]=_0x2139ca[_0x28706c(0x140)]||![],_0x2139ca['configurable']=!![];if(_0x28706c(0x11b)in _0x2139ca)_0x2139ca[_0x28706c(0x131)]=!![];Object['defineProperty'](_0x1fa8c1,_0x2139ca[_0x28706c(0x102)],_0x2139ca);}}return function(_0x4b4b40,_0x375d7c,_0x25d682){var _0x33ce3d=_0x5a7a;if(_0x375d7c)_0x3d4083(_0x4b4b40[_0x33ce3d(0x161)],_0x375d7c);if(_0x25d682)_0x3d4083(_0x4b4b40,_0x25d682);return _0x4b4b40;};}()),_0x140311=_0x16c1ba(0x1),_0x238b11=_0x1e65e7(_0x140311);function _0x1e65e7(_0x5b1800){return _0x5b1800&&_0x5b1800['__esModule']?_0x5b1800:{'default':_0x5b1800};}function _0x8d678(_0x302930,_0x210ed9){var _0x5b1544=_0x49215d;if(!(_0x302930 instanceof _0x210ed9))throw new TypeError(_0x5b1544(0x145));}var _0x40aa69=(function(){var _0x754318=_0x49215d;function _0x32dd3b(_0x37603b){var _0x187825=_0x5a7a;_0x8d678(this,_0x32dd3b),this[_0x187825(0x10d)],this['cars']=_0x37603b,this[_0x187825(0xfc)],this['view'];}return _0x544db4(_0x32dd3b,[{'key':_0x754318(0x135),'value':function _0x316c36(){var _0x496a8a=_0x754318,_0x2d75ef=this,_0x479a4e=0x0,_0x169082=$('#rush-hour');_0x2d75ef[_0x496a8a(0x10d)]=[];for(var _0x3abfda=0x0;_0x3abfda<0x6;_0x3abfda++)_0x2d75ef[_0x496a8a(0x10d)][_0x3abfda]=new Array(0x6)[_0x496a8a(0x113)](0x0);for(var _0x15d916=0x0;_0x15d916<this[_0x496a8a(0x13d)][_0x496a8a(0xf6)];_0x15d916++){let _0x1fce6c=this[_0x496a8a(0x13d)][_0x15d916];_0x1fce6c[_0x496a8a(0x109)]=_0x15d916,_0x1fce6c[_0x496a8a(0x108)][_0x496a8a(0x13e)](function(_0x542cb2){var _0x4b3036=_0x496a8a;_0x2d75ef[_0x4b3036(0x10d)][_0x542cb2[0x0]][_0x542cb2[0x1]]=0x1;});var _0x257a69=$(_0x496a8a(0x121)+_0x15d916+_0x496a8a(0x15f));_0x479a4e=_0x479a4e+_0x1fce6c['length'],_0x1fce6c[_0x496a8a(0x10c)]()[0x0]===0x1&&(_0x257a69[_0x496a8a(0x12d)](_0x496a8a(0x159),_0x1fce6c[_0x496a8a(0x15a)][0x0]+0x1+_0x496a8a(0x12f)+_0x1fce6c[_0x496a8a(0xf6)]),_0x257a69[_0x496a8a(0x12d)]('grid-column',_0x1fce6c[_0x496a8a(0x15a)][0x1]+0x1+_0x496a8a(0x11c))),_0x1fce6c['directionTranslate']()[0x1]===0x1&&(_0x257a69[_0x496a8a(0x12d)](_0x496a8a(0x159),_0x1fce6c[_0x496a8a(0x15a)][0x0]+0x1+_0x496a8a(0x11c)),_0x257a69[_0x496a8a(0x12d)](_0x496a8a(0x156),_0x1fce6c[_0x496a8a(0x15a)][0x1]+0x1+'/span\x20'+_0x1fce6c[_0x496a8a(0xf6)])),_0x257a69[_0x496a8a(0x10a)](_0x1fce6c[_0x496a8a(0x117)]),_0x257a69[_0x496a8a(0x15b)](function(){var _0x65aa49=_0x496a8a,_0xd772=$(this);$(_0x65aa49(0xf7))[_0x65aa49(0x12e)]('selected'),_0xd772[_0x65aa49(0x10a)](_0x65aa49(0x126)),_0x2d75ef['selectedCar']=_0x1fce6c;}),_0x169082['append'](_0x257a69);}for(var _0x3abfda=0x0;_0x3abfda<_0x2d75ef['grid'][_0x496a8a(0xf6)];_0x3abfda++)for(var _0x129bc4=0x0;_0x129bc4<_0x2d75ef[_0x496a8a(0x10d)][_0x496a8a(0xf6)];_0x129bc4++)if(_0x2d75ef[_0x496a8a(0x10d)][_0x3abfda][_0x129bc4]==0x0){var _0x257a69=$('<div\x20class=\x27cell\x27\x20id=\x27'+_0x3abfda+'_'+_0x129bc4+_0x496a8a(0x15f));function _0x5b7c46(_0x538109,_0x11d1b3){return function(){var _0x1683e5=_0x5a7a;let _0x40ed05=_0x2d75ef[_0x1683e5(0xfc)];_0x40ed05&&(_0x40ed05[_0x1683e5(0x14a)](_0x40ed05[_0x1683e5(0x157)]([_0x538109,_0x11d1b3])),_0x2d75ef[_0x1683e5(0x14b)][_0x1683e5(0x111)](),_0x2d75ef['isWon']()&&_0x2d75ef[_0x1683e5(0x14b)]['handleWin']());};}_0x257a69['click'](_0x5b7c46(_0x3abfda,_0x129bc4)),_0x169082[_0x496a8a(0x137)](_0x257a69);}}},{'key':_0x754318(0x13a),'value':function _0x1ce51c(){var _0x35b354=_0x754318;let _0x54b396=this['cars'][0x0];if(_0x54b396['segments'][0x0][0x1]==0x5||_0x54b396[_0x35b354(0x108)][_0x54b396[_0x35b354(0x108)][_0x35b354(0xf6)]-0x1][0x1]==0x5)return!![];return![];}}]),_0x32dd3b;}());_0x1c899e['default']=_0x40aa69;},function(_0x25fc32,_0x520967){'use strict';var _0x5cc102=_0x5a7a;Object[_0x5cc102(0xfe)](_0x520967,_0x5cc102(0xfd),{'value':!![]});var _0x4effe7=(function(){function _0x5c818f(_0x1377e4,_0x31f643){var _0xe2bd4c=_0x5a7a;for(var _0x34c20f=0x0;_0x34c20f<_0x31f643[_0xe2bd4c(0xf6)];_0x34c20f++){var _0xe82a4e=_0x31f643[_0x34c20f];_0xe82a4e[_0xe2bd4c(0x140)]=_0xe82a4e[_0xe2bd4c(0x140)]||![],_0xe82a4e['configurable']=!![];if('value'in _0xe82a4e)_0xe82a4e[_0xe2bd4c(0x131)]=!![];Object['defineProperty'](_0x1377e4,_0xe82a4e[_0xe2bd4c(0x102)],_0xe82a4e);}}return function(_0x49581c,_0x3b6faa,_0x33cb16){var _0x4e68e9=_0x5a7a;if(_0x3b6faa)_0x5c818f(_0x49581c[_0x4e68e9(0x161)],_0x3b6faa);if(_0x33cb16)_0x5c818f(_0x49581c,_0x33cb16);return _0x49581c;};}());function _0x1128ee(_0x4f9f7e,_0x28743c){var _0x241206=_0x5cc102;if(!(_0x4f9f7e instanceof _0x28743c))throw new TypeError(_0x241206(0x145));}var _0x24ae57=(function(){var _0x173a6d=_0x5cc102;function _0x556cc7(_0x2c496e,_0x5efb51){var _0xba5c94=_0x5a7a,_0x41c847=this;_0x1128ee(this,_0x556cc7),this[_0xba5c94(0x144)],this[_0xba5c94(0x14f)]=new Date()[_0xba5c94(0x15c)](),this['$container']=_0x5efb51,this['board']=_0x2c496e,window[_0xba5c94(0x10b)]=0x0,this['render'](),$(window)[_0xba5c94(0xff)](_0xba5c94(0x14e)),$(window)['on']('keydown',function(_0x1d4c24){var _0x53ad31=_0xba5c94;if(_0x41c847[_0x53ad31(0x11d)][_0x53ad31(0xfc)]){if(_0x1d4c24['keyCode']===0x26)_0x1d4c24[_0x53ad31(0x119)](),_0x41c847[_0x53ad31(0x11d)][_0x53ad31(0xfc)]['move']('up'),_0x41c847['render']();else{if(_0x1d4c24[_0x53ad31(0x112)]===0x28)_0x1d4c24[_0x53ad31(0x119)](),_0x41c847[_0x53ad31(0x11d)][_0x53ad31(0xfc)]['move']('down'),_0x41c847[_0x53ad31(0x111)]();else{if(_0x1d4c24['keyCode']===0x25)_0x1d4c24[_0x53ad31(0x119)](),_0x41c847[_0x53ad31(0x11d)]['selectedCar'][_0x53ad31(0x11f)](_0x53ad31(0x160)),_0x41c847[_0x53ad31(0x111)]();else _0x1d4c24[_0x53ad31(0x112)]===0x27&&(_0x1d4c24[_0x53ad31(0x119)](),_0x41c847[_0x53ad31(0x11d)]['selectedCar'][_0x53ad31(0x11f)](_0x53ad31(0x143)),_0x41c847[_0x53ad31(0x111)](),_0x41c847[_0x53ad31(0x11d)][_0x53ad31(0x13a)]()&&_0x41c847['handleWin']());}}}});}return _0x4effe7(_0x556cc7,[{'key':'setUpBoard','value':function _0x285742(){var _0x289ba7=_0x5a7a;this[_0x289ba7(0x11d)]['setUpCars']();}},{'key':_0x173a6d(0xfa),'value':function _0x16b9cd(){var _0x5a491a=_0x173a6d;$(window)[_0x5a491a(0xff)]('keydown'),$('.'+this['board']['selectedCar'][_0x5a491a(0x117)])['removeClass'](_0x5a491a(0x126)),$('.win-phrase')[_0x5a491a(0x10a)]('show'),clearInterval(scheduler);}},{'key':_0x173a6d(0x14d),'value':function _0x364356(){var _0x7ad32c=new Date()['getTime']();if(scheduler)clearInterval(scheduler);function _0xd8ac8c(){var _0x134f83=_0x5a7a,_0x5c3646=new Date()[_0x134f83(0x15c)](),_0x95e08b=_0x5c3646-_0x7ad32c,_0x37cc08=Math[_0x134f83(0x15e)](_0x95e08b/(0x3e8*0x3c*0x3c)),_0x15cede=Math[_0x134f83(0x15e)](_0x95e08b%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c)),_0xdf64c6=Math[_0x134f83(0x15e)](_0x95e08b%(0x3e8*0x3c)/0x3e8);$(_0x134f83(0x13c))['html'](_0x37cc08[_0x134f83(0x151)](0x0)[_0x134f83(0x127)]()[_0x134f83(0x146)](0x2,'0')+':'+_0x15cede[_0x134f83(0x151)](0x0)[_0x134f83(0x127)]()[_0x134f83(0x146)](0x2,'0')+':'+_0xdf64c6[_0x134f83(0x151)](0x0)[_0x134f83(0x127)]()[_0x134f83(0x146)](0x2,'0'));}scheduler=setInterval(_0xd8ac8c,0x3e8),_0xd8ac8c();}},{'key':'render','value':function _0x41d8d1(){var _0x25f428=_0x173a6d;this[_0x25f428(0x120)][_0x25f428(0x10e)](),this[_0x25f428(0xfb)]();if(this[_0x25f428(0x11d)][_0x25f428(0xfc)]){let _0x203eb2=this[_0x25f428(0x11d)][_0x25f428(0xfc)];$(_0x25f428(0x130)+_0x203eb2[_0x25f428(0x109)])[_0x25f428(0x10a)]('selected');}}}]),_0x556cc7;}());_0x520967[_0x5cc102(0x124)]=_0x24ae57;}]));
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+/******/
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	var _car = __webpack_require__(1);
+	
+	var _car2 = _interopRequireDefault(_car);
+	
+	var _board = __webpack_require__(2);
+	
+	var _board2 = _interopRequireDefault(_board);
+	
+	var _view = __webpack_require__(3);
+	
+	var _view2 = _interopRequireDefault(_view);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	$(function () {
+	  const urlParams = new URLSearchParams(window.location.search);
+	  const InputDate = urlParams.get('Date');
+	  var carsDic = {};
+	  var $container = $('#rush-hour');
+
+	  carsDic['20240804'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 1], "right"), 
+				new _car2.default(2, "red", [0, 1], "down"), 
+				new _car2.default(2, "red", [1, 3], "down"), 
+				new _car2.default(2, "red", [2, 4], "down"), 
+				new _car2.default(2, "red", [3, 0], "down"), 
+				new _car2.default(3, "red", [3, 5], "down"), 
+				new _car2.default(2, "red", [4, 2], "down"), 
+				new _car2.default(2, "green", [1, 4], "right"), 
+				new _car2.default(3, "green", [3, 1], "right"),
+				new _car2.default(2, "green", [4, 3], "right")
+			];
+	  };
+
+
+	  carsDic['20240803'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 1], "right"), 
+				new _car2.default(2, "red", [1, 3], "down"), 
+				new _car2.default(2, "red", [2, 0], "down"), 
+				new _car2.default(2, "red", [2, 5], "down"), 
+				new _car2.default(2, "red", [3, 1], "down"), 
+				new _car2.default(2, "red", [4, 0], "down"), 
+				new _car2.default(2, "red", [4, 3], "down"), 
+				new _car2.default(3, "green", [0, 3], "right"), 
+				new _car2.default(2, "green", [1, 4], "right"),
+				new _car2.default(3, "green", [3, 2], "right"),
+				new _car2.default(2, "green", [4, 4], "right"),
+				new _car2.default(2, "green", [5, 1], "right")
+			];
+	  };
+
+
+	  carsDic['20240802'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 0], "right"), 
+				new _car2.default(2, "red", [0, 1], "down"), 
+				new _car2.default(3, "red", [0, 4], "down"), 
+				new _car2.default(2, "red", [2, 2], "down"), 
+				new _car2.default(3, "red", [2, 5], "down"), 
+				new _car2.default(3, "red", [3, 0], "down"), 
+				new _car2.default(2, "red", [4, 3], "down"), 
+				new _car2.default(2, "green", [0, 2], "right"), 
+				new _car2.default(2, "green", [1, 2], "right"),
+				new _car2.default(2, "green", [3, 3], "right"),
+				new _car2.default(2, "green", [4, 1], "right"),
+				new _car2.default(2, "green", [5, 4], "right")
+			];
+	  };
+
+	  carsDic['20240801'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 1], "right"), 
+				new _car2.default(3, "red", [0, 0], "down"), 
+				new _car2.default(3, "red", [1, 3], "down"), 
+				new _car2.default(2, "red", [1, 5], "down"), 
+				new _car2.default(2, "red", [3, 2], "down"), 
+				new _car2.default(2, "red", [4, 0], "down"), 
+				new _car2.default(2, "red", [4, 5], "down"), 
+				new _car2.default(2, "green", [0, 3], "right"), 
+				new _car2.default(2, "green", [3, 4], "right"),
+				new _car2.default(2, "green", [4, 3], "right"),
+				new _car2.default(2, "green", [5, 1], "right")
+			];
+	  };
+
+
+	  carsDic['20240731'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 2], "right"), 
+				new _car2.default(2, "red", [0, 2], "down"), 
+				new _car2.default(2, "red", [1, 4], "down"), 
+				new _car2.default(2, "red", [1, 5], "down"), 
+				new _car2.default(3, "red", [3, 1], "down"), 
+				new _car2.default(2, "red", [3, 2], "down"), 
+				new _car2.default(3, "red", [3, 5], "down"), 
+				new _car2.default(2, "green", [0, 4], "right"), 
+				new _car2.default(2, "green", [1, 0], "right"),
+				new _car2.default(2, "green", [2, 0], "right"),
+				new _car2.default(2, "green", [3, 3], "right"),
+				new _car2.default(3, "green", [5, 2], "right")
+			];
+	  };
+
+
+	  carsDic['20240730'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 0], "right"), 
+				new _car2.default(2, "red", [0, 0], "down"), 
+				new _car2.default(2, "red", [0, 1], "down"), 
+				new _car2.default(3, "red", [1, 5], "down"), 
+				new _car2.default(3, "red", [2, 2], "down"), 
+				new _car2.default(2, "red", [4, 3], "down"), 
+				new _car2.default(2, "green", [0, 4], "right"), 
+				new _car2.default(3, "green", [1, 2], "right"),
+				new _car2.default(2, "green", [3, 3], "right"),
+				new _car2.default(2, "green", [4, 4], "right"),
+				new _car2.default(3, "green", [5, 0], "right")
+			];
+	  };
+
+	  carsDic['20240729'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 0], "right"), 
+				new _car2.default(2, "red", [0, 0], "down"), 
+				new _car2.default(2, "red", [1, 4], "down"), 
+				new _car2.default(3, "red", [1, 5], "down"), 
+				new _car2.default(3, "red", [2, 2], "down"), 
+				new _car2.default(2, "red", [4, 3], "down"), 
+				new _car2.default(2, "green", [0, 3], "right"), 
+				new _car2.default(3, "green", [1, 1], "right"),
+				new _car2.default(2, "green", [3, 3], "right"),
+				new _car2.default(2, "green", [4, 0], "right"),
+				new _car2.default(2, "green", [4, 4], "right"),
+				new _car2.default(3, "green", [5, 0], "right")
+			];
+	  };
+
+	  carsDic['20240728'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 2], "right"), 
+				new _car2.default(3, "red", [0, 4], "down"), 
+				new _car2.default(2, "red", [0, 5], "down"), 
+				new _car2.default(2, "red", [1, 1], "down"), 
+				new _car2.default(2, "red", [3, 2], "down"), 
+				new _car2.default(2, "red", [4, 3], "down"), 
+				new _car2.default(2, "green", [0, 0], "right"), 
+				new _car2.default(2, "green", [1, 2], "right"),
+				new _car2.default(2, "green", [3, 4], "right"),
+				new _car2.default(2, "green", [4, 0], "right"),
+				new _car2.default(3, "green", [5, 0], "right")
+			];
+	  };
+
+	  carsDic['20240727'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 0], "right"), 
+				new _car2.default(2, "red", [0, 5], "down"), 
+				new _car2.default(2, "red", [1, 2], "down"), 
+				new _car2.default(3, "red", [1, 3], "down"), 
+				new _car2.default(2, "red", [1, 4], "down"), 
+				new _car2.default(2, "red", [3, 2], "down"), 
+				new _car2.default(2, "red", [4, 5], "down"), 
+				new _car2.default(3, "green", [0, 1], "right"), 
+				new _car2.default(2, "green", [3, 4], "right"),
+				new _car2.default(2, "green", [4, 3], "right"),
+				new _car2.default(2, "green", [5, 1], "right")
+			];
+	  };
+
+
+	  carsDic['20240726'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 1], "right"), 
+				new _car2.default(2, "red", [0, 5], "down"), 
+				new _car2.default(3, "red", [1, 4], "down"), 
+				new _car2.default(2, "red", [2, 0], "down"), 
+				new _car2.default(3, "red", [3, 1], "down"), 
+				new _car2.default(2, "red", [3, 2], "down"), 
+				new _car2.default(2, "red", [3, 5], "down"), 
+				new _car2.default(2, "green", [0, 0], "right"), 
+				new _car2.default(3, "green", [1, 1], "right"),
+				new _car2.default(2, "green", [4, 3], "right"),
+				new _car2.default(3, "green", [5, 3], "right")
+			];
+	  };
+
+
+	  carsDic['20240725'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 2], "right"), 
+				new _car2.default(3, "red", [0, 0], "down"), 
+				new _car2.default(2, "red", [1, 1], "down"), 
+				new _car2.default(2, "red", [0, 3], "down"), 
+				new _car2.default(3, "red", [1, 4], "down"), 
+				new _car2.default(2, "red", [2, 5], "down"), 
+				new _car2.default(2, "red", [4, 2], "down"), 
+				new _car2.default(2, "green", [0, 4], "right"), 
+				new _car2.default(3, "green", [3, 0], "right"),
+				new _car2.default(2, "green", [4, 4], "right"),
+				new _car2.default(2, "green", [5, 4], "right")
+			];
+	  };
+
+	  carsDic['20240724'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 0], "right"), 
+				new _car2.default(2, "red", [0, 1], "down"), 
+				new _car2.default(2, "red", [1, 4], "down"), 
+				new _car2.default(2, "red", [2, 2], "down"), 
+				new _car2.default(2, "red", [4, 0], "down"), 
+				new _car2.default(2, "red", [4, 3], "down"), 
+				new _car2.default(3, "red", [3, 5], "down"), 
+				new _car2.default(2, "green", [0, 4], "right"), 
+				new _car2.default(2, "green", [1, 2], "right"),
+				new _car2.default(2, "green", [3, 0], "right"),
+				new _car2.default(2, "green", [3, 3], "right"),
+				new _car2.default(2, "green", [4, 1], "right")
+			];
+	  };
+
+	  carsDic['20240723'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 2], "right"), 
+				new _car2.default(2, "red", [1, 0], "down"), 
+				new _car2.default(2, "red", [1, 1], "down"), 
+				new _car2.default(2, "red", [0, 2], "down"), 
+				new _car2.default(2, "red", [1, 4], "down"), 
+				new _car2.default(3, "red", [1, 5], "down"), 
+				new _car2.default(3, "red", [3, 3], "down"), 
+				new _car2.default(2, "green", [0, 0], "right"), 
+				new _car2.default(2, "green", [0, 3], "right"),
+				new _car2.default(2, "green", [4, 4], "right")
+			];
+	  };
+	  carsDic['20240722'] = function () {
+	    return [new _car2.default(2, "yellow", [2, 0], "right"), 
+				new _car2.default(2, "red", [0, 0], "down"), 
+				new _car2.default(2, "red", [1, 2], "down"), 
+				new _car2.default(2, "red", [1, 5], "down"), 
+				new _car2.default(3, "red", [2, 3], "down"), 
+				new _car2.default(3, "red", [3, 1], "down"), 
+				new _car2.default(2, "red", [4, 4], "down"), 
+				new _car2.default(2, "green", [0, 1], "right"), 
+				new _car2.default(2, "green", [1, 3], "right"),
+				new _car2.default(2, "green", [0, 4], "right"), 
+				new _car2.default(2, "green", [3, 4], "right"), 
+				new _car2.default(2, "green", [5, 2], "right")
+			];
+			
+	  };
+	  var todayCars = null
+	  var TargetDate=InputDate
+	  if(TargetDate){
+		todayCars = carsDic[TargetDate]
+	  }
+	  if(!todayCars){
+		TargetDate=Object.keys(carsDic).sort().reverse()[0];
+		todayCars = carsDic[TargetDate]
+	  }
+	  var formatTargetDate=TargetDate.substr(0,4)+"."+TargetDate.substr(4,2)+"."+TargetDate.substr(6,2)
+
+	  $("#TargetDate").html(formatTargetDate)
+	
+	  $('.reset-button').click(function () {
+	    $container.empty();
+	    $(".win-phrase").removeClass("show");
+	    setUpGame(todayCars(), $container);
+	  });
+	
+	  setUpGame(todayCars(), $container);
+	});
+	
+	var setUpGame = function setUpGame(cars, container) {
+		var board = new _board2.default(cars);
+		var view = new _view2.default(board, container);
+		board.view = view;
+		cars.forEach(function(car){
+			car.board=board;
+		});
+		view.restartTimer();
+	};
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var Car = function () {
+	  function Car(length, color, startPos, orientation) {
+	    _classCallCheck(this, Car);
+	    this.length = length;
+	    this.color = color;
+	    this.startPos = startPos;
+	    this.orientation = orientation;
+	    this.segments = [startPos];
+		this.index;
+		this.board;
+	    this.setUpBody();
+	  }
+	
+	  _createClass(Car, [{
+	    key: "directionTranslate",
+	    value: function directionTranslate(dir) {
+	      var code = void 0;
+	      if (dir) {
+	        code = dir;
+	      } else {
+	        code = this.orientation;
+	      }
+	      var pos = void 0;
+	      switch (code) {
+	        case "down":
+	          pos = [1, 0];
+	          break;
+	        case "right":
+	          pos = [0, 1];
+	          break;
+	        case "up":
+	          pos = [-1, 0];
+	          break;
+	        case "left":
+	          pos = [0, -1];
+	      }
+	      return pos;
+	    }
+	  }, {
+	    key: "setUpBody",
+	    value: function setUpBody() {
+			//var oppositeOrientation = [this.directionTranslate()[0] * -1, this.directionTranslate()[1] * -1];
+			var Orientation = this.directionTranslate()
+			for (var i = 0; i < this.length - 1; i++) {
+				var bodyPart = [this.segments[i][0] + Orientation[0], this.segments[i][1] + Orientation[1]];
+				this.segments.push(bodyPart);
+			}
+	    }
+	  }, {
+	    key: "move",
+	    value: function move(direction) {
+			var dir = this.directionTranslate(direction);
+			var oldHead = void 0;
+			var	newHead = void 0;
+			if (direction == this.oppositeOrientation()){
+				oldHead = this.segments[0];
+				newHead = [oldHead[0] + dir[0], oldHead[1] + dir[1]];
+				if (newHead[0] < 0 || newHead[0] > 5 || newHead[1] <0 || newHead[1]>5) {
+					// alert("out of bounds!");
+					return;
+				}
+				if (this.board.grid[newHead[0]][newHead[1]]==0) {
+					this.segments.unshift(newHead);
+					this.segments.pop();
+					this.startPos = [this.startPos[0] + dir[0],this.startPos[1] + dir[1]]
+					window.moveCount += 1;
+				}
+	
+			}
+			else if (direction == this.orientation){
+				oldHead = this.segments[this.length - 1];
+				newHead = [oldHead[0] + dir[0], oldHead[1] + dir[1]];
+				if (newHead[0] < 0 || newHead[0] > 5 || newHead[1] <0 || newHead[1]>5) {
+					// alert("out of bounds!");
+					return;
+				}
+				if (this.board.grid[newHead[0]][newHead[1]]==0) {
+					this.segments.push(newHead);
+					this.segments.shift();
+					this.startPos = [this.startPos[0] + dir[0],this.startPos[1] + dir[1]]
+					window.moveCount += 1;
+				}
+			}
+	    }
+	}, {
+	    key: "oppositeOrientation",
+	    value: function oppositeOrientation(orientation) {
+			var code=this.orientation;
+			if(orientation)
+				code=orientation;
+			switch (code) {
+				case "down":
+					return "up";
+				case "up":
+					return "down";
+				case "left":
+					return "right";
+				case "right":
+					return "left";
+				}
+			return "error";
+		}
+	}, {
+	    key: "moveSteps",
+	    value: function moveSteps(stepCount) {
+			if(stepCount==0)
+				return;
+			var code = this.orientation;
+			if(stepCount<0){
+				stepCount=-stepCount;
+				code=this.oppositeOrientation();
+			}
+			for(var i=0; i<stepCount; i++){
+				this.move(code);
+			}
+		}
+	  }, {
+	    key: "onEdge",
+	    value: function onEdge() {
+	      if (this.directionTranslate()[0] === 1) {
+	        return this.segments[0][0] === 5 || this.segments[this.length - 1][0] === 0;
+	      } else if (this.directionTranslate()[1] === 1) {
+	        return this.segments[0][1] === 5 || this.segments[this.length - 1][1] === 0;
+	      }
+	    }
+	  }, {
+	    key: "sameDir",
+	    value: function sameDir(pos) {
+			let code = this.orientation;
+			let dir = this.directionTranslate();
+			let startPos = this.startPos;
+			let endPos = [startPos[0]+dir[0]*(this.length-1), startPos[1]+dir[1]*(this.length-1)];
+			let minDistance=Math.min(Math.abs(pos[0]-startPos[0])+Math.abs(pos[1]-startPos[1]),Math.abs(pos[0]-endPos[0])+Math.abs(pos[1]-endPos[1]))
+			
+			if(code=="up" && pos[0]<endPos[0] && pos[1]==endPos[1]
+			  ||code=="down" && pos[0]>endPos[0] && pos[1]==endPos[1]
+			  ||code=="left" && pos[1]<endPos[1] && pos[0]==endPos[0]
+			  ||code=="right" && pos[1]>endPos[1] && pos[0]==endPos[0])
+			  return minDistance;
+		
+			if(code=="up" && pos[0]>this.startPos[0] && pos[1]==this.startPos[1]
+			  ||code=="down" && pos[0]<this.startPos[0] && pos[1]==this.startPos[1]
+			  ||code=="left" && pos[1]>this.startPos[1] && pos[0]==this.startPos[0]
+			  ||code=="right" && pos[1]<this.startPos[1] && pos[0]==this.startPos[0])
+			  return -minDistance;
+		
+			return 0;
+		}
+	}]);
+	
+	  return Car;
+	}();
+	
+	exports.default = Car;
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _car = __webpack_require__(1);
+	
+	var _car2 = _interopRequireDefault(_car);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var Board = function () {
+	  function Board(cars) {
+	    _classCallCheck(this, Board);
+	    this.grid;
+	    this.cars = cars;
+	    this.selectedCar;
+		this.view;
+	  }
+	
+	  _createClass(Board, [{
+	    key: "setUpCars",
+	    value: function setUpCars() {
+			var _board = this;
+			var cars_cells_count = 0
+			var $container = $('#rush-hour');
+			_board.grid = []
+			for(var i=0;i<6;i++)
+				_board.grid[i] = new Array(6).fill(0);
+			for(var n=0;n<this.cars.length;n++){
+				let car=this.cars[n];
+				car.index=n;
+				car.segments.forEach(function (square) {
+					_board.grid[square[0]][square[1]]=1;
+				});
+				var  $cell = $("<div id='car_"+n+"'></div>")
+				cars_cells_count=cars_cells_count+car.length;
+				if(car.directionTranslate()[0]===1){
+					$cell.css("grid-row",(car.startPos[0]+1)+"/span "+car.length);
+					$cell.css("grid-column",(car.startPos[1]+1)+"/span 1");
+				}
+				if(car.directionTranslate()[1]===1){
+					$cell.css("grid-row",(car.startPos[0]+1)+"/span 1");
+					$cell.css("grid-column",(car.startPos[1]+1)+"/span "+car.length);
+				}
+				$cell.addClass(car.color);
+				$cell.click(function () {
+					var $this = $(this);
+					$('.selected').removeClass("selected");
+					$this.addClass("selected");
+					_board.selectedCar = car;
+				});
+				$container.append($cell);
+			}
+			for(var i=0;i<_board.grid.length;i++)
+				for(var j=0;j<_board.grid.length;j++)
+					if(_board.grid[i][j]==0){
+						var $cell = $("<div class='cell' id='"+i+"_"+j+"'></div>")
+						function createClickFunction(i,j) {
+							return function() {
+								let car = _board.selectedCar;
+								if(car){
+									car.moveSteps(car.sameDir([i, j]))
+									_board.view.render();
+									if (_board.isWon()) {
+										_board.view.handleWin();
+									}
+								}
+							}
+						}
+						$cell.click(createClickFunction(i,j));
+						$container.append($cell);
+					}
+	    }
+	  }, {
+	    key: "isWon",
+	    value: function isWon() {
+		  let car=this.cars[0];
+	      if (car.segments[0][1] == 5 || car.segments[car.segments.length-1][1] == 5) {
+	        return true;
+	      }
+	      return false;
+	    }
+	  }]);
+	
+	  return Board;
+	}();
+	
+	exports.default = Board;
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var View = function () {
+	  function View(board, $container) {
+	    var _this = this;
+	    _classCallCheck(this, View);
+		
+		this.scheduler;
+		this.startTime = new Date().getTime();
+	    this.$container = $container;
+	    this.board = board;
+	    window.moveCount = 0;
+	    this.render();
+	    $(window).off("keydown");
+	    $(window).on("keydown", function (event) {
+	      if (_this.board.selectedCar) {
+	        if (event.keyCode === 38) {
+	          event.preventDefault();
+	          _this.board.selectedCar.move("up");
+	          _this.render();
+	        } else if (event.keyCode === 40) {
+	          event.preventDefault();
+	          _this.board.selectedCar.move("down");
+	          _this.render();
+	        } else if (event.keyCode === 37) {
+	          event.preventDefault();
+	          _this.board.selectedCar.move("left");
+	          _this.render();
+	        } else if (event.keyCode === 39) {
+	          event.preventDefault();
+	          _this.board.selectedCar.move("right");
+	          _this.render();
+	          if (_this.board.isWon()) {
+	            _this.handleWin();
+	          }
+	        }
+	      }
+	    });
+	  }
+	
+	  _createClass(View, [{
+	    key: "setUpBoard",
+	    value: function setUpBoard() {
+			this.board.setUpCars();
+	    }
+	  }, {
+	    key: "handleWin",
+	    value: function handleWin() {
+	      $(window).off("keydown");
+	      $("." + this.board.selectedCar.color).removeClass("selected");
+	      $(".win-phrase").addClass("show");
+  		  clearInterval(scheduler);
+	    }
+	  }, {
+	    key: "restartTimer",
+	    value: function restartTimer() {
+			var startTime = new Date().getTime();
+			if(scheduler)
+				clearInterval(scheduler);
+			function updateTimer() {
+				// Get today's date and time
+				var now = new Date().getTime();
+				// Find the distance between now and the count down date
+				var distance = now - startTime;
+				
+				// Time calculations for days, hours, minutes and seconds
+				var hours = Math.floor(distance / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+				  
+				// Output the result in an element with id="demo"
+				$('#timer').html(hours.toFixed(0).toString().padStart(2,'0')+":"+minutes.toFixed(0).toString().padStart(2,'0')+":"+seconds.toFixed(0).toString().padStart(2,'0'));
+			}
+			scheduler = setInterval(updateTimer, 1000);
+			updateTimer();
+	    }
+	  }, {
+	    key: "render",
+	    value: function render() {
+	      this.$container.empty();
+	      this.setUpBoard();
+	      if (this.board.selectedCar) {
+			let car=this.board.selectedCar;
+			$("#car_"+car.index).addClass("selected");
+	      }
+	    }
+	  }]);
+	  return View;
+	}();
+	
+	exports.default = View;
+
+/***/ }
+/******/ ]);
+//# sourceMappingURL=bundle.js.map
